@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owlcarousel/assets/owl.theme.default.min.css">
+</head>
+<style>
+    .mfp-fade.mfp-bg {
+        opacity: 0;
+        -webkit-transition: all 0.15s ease-out;
+        -moz-transition: all 0.15s ease-out;
+        transition: all 0.15s ease-out;
+    }
+
+    .mfp-fade.mfp-bg.mfp-ready {
+        opacity: 0.8;
+    }
+
+    .mfp-fade.mfp-bg.mfp-removing {
+        opacity: 0;
+    }
+
+    .mfp-fade.mfp-wrap .mfp-content {
+        opacity: 0;
+        -webkit-transition: all 0.15s ease-out;
+        -moz-transition: all 0.15s ease-out;
+        transition: all 0.15s ease-out;
+    }
+
+    .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+        opacity: 1;
+    }
+
+    .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+        opacity: 0;
+    }
+</style>
+<body>
+    <a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">Open YouTube video</a><br>
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.popup-youtube').magnificPopup({
+            disableOn: 700,
+            type: 'iframe',
+            mainClass: 'mfp-fade',
+            removalDelay: 160,
+            preloader: false,
+            fixedContentPos: false
+        });
+    });
+</script>
+</html>
