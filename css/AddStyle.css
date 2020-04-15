@@ -6,6 +6,15 @@ a:hover {
     text-decoration: none;
 }
 
+.block {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.bg-w {
+    background: #fff;
+}
+
 /* Start==========================header=========================== */
 /* Start=======================header-wrapper=========================== */
 .header-wrapper {
@@ -275,11 +284,6 @@ a:hover {
 /* End======================slide-main=========================== */
 
 /* Start======================about=========================== */
-.about {
-    padding-top: 55px;
-    padding-bottom: 55px;
-}
-
 .about .about-main {
     padding-bottom: 30px;
 }
@@ -364,4 +368,727 @@ a:hover {
 }
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
 	opacity: 0;
+}
+/* End======================about=========================== */
+
+/* Start====================route=========================== */
+.route {
+    background-size: contain;
+    background-image: url('../images/banner-1-2ud.png');
+}
+
+.route .route-main {
+    background: #fff;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.route .route-main-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 31px;
+    color: #8ab610;
+    font-weight: 700;
+    line-height: 1.3;
+    padding-bottom: 14px;
+}
+
+.route .route-main-sumary {
+    color: #666;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 21px;
+}
+
+.route .route-main-form {
+    margin-bottom: 40px;
+}
+
+.route .route-main-form .form-title {
+    margin-bottom: 20px;
+    color: black;
+    font-size: 17px;
+}
+
+.route .route-main-form .form-sumary {
+    width: 100%;
+    font-size: 16px;
+}
+
+.route .route-main-form .form-sumary input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    overflow: visible;
+    width: 100%;
+    font-size: 12px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.dropbtn {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: solid 1px #cdcdcd;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    background: #fff;
+  }
+
+.dropbtn span {
+    position: absolute;
+    right: 5%;
+}
+
+  .dropbtn span {
+      text-align: right;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 90%;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .form-option a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  .route .route-main .route-button {
+    text-align: center;
+  }
+
+  .route .route-main .route-button a {
+    padding-bottom: 12px;
+    border-radius: 25px;
+    background: rgb(138, 182, 16);
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+/* End====================route=========================== */
+
+/* Start================education=========================== */
+.education {
+    background-image: url('../images/bg-001-scaled.jpg');
+    background-size: contain;
+}
+
+.education .education-title1 {
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+    color: #000;
+}
+
+.education .education-title2 {
+    color: #8ab610;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.education .education-sumary {
+    color: #666;
+    text-align: center;
+    padding-bottom: 21px;
+}
+
+.divider {
+    max-width: 80px;
+    background-color: rgba(138, 182, 16, 0.35);
+    margin-left: auto;
+    margin-right: auto;
+    height: 3px;
+    display: block;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+.education .education-main {
+    border: 1px solid #00000017;
+    margin-bottom: 30px;
+}
+
+.education .education-main:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(0.1); /* Safari 3-8 */
+    transform: scale(1.01); 
+}
+
+.education .education-main .img-title {
+    width: 100%;
+}
+
+.education .education-main-txt {
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #fff;
+}
+
+.education .education-main-txt .education-main-sumary {
+    font-size: 17px;
+    font-weight: 300;
+    color: #666;
+    padding-bottom: 22px;
+}
+
+.education .education-main-txt .education-main-sumary span {
+    font-weight: bold;
+    color: green;
+}
+
+.education .education-main-button {
+    text-align: center;
+}
+
+.education .education-main-button a {
+    padding-bottom: 14px;
+    background: #fff200;
+    color: #fff;
+    display: block;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 14px;
+    text-transform: uppercase;
+}
+
+.education .education-main-button a:hover {
+    background: #cec406;
+}
+
+.education .education-button {
+    text-align: center;
+}
+
+.education .education-button a {
+    padding-bottom: 7px;
+    padding-right: 22px;
+    padding-left: 22px;
+    background: #8ab610;
+    color: #fff;
+    font-size: 1.15em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-top: 7px;
+    border-radius: 25px;
+}
+
+.education .education-button a:hover {
+    background: #6c8d10;
+}
+/* End================education=========================== */
+
+/* Start================story=========================== */
+.story {
+    background: rgb(240, 242, 245);
+}
+
+.story .story-title {
+    color: #8ab610;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.story .story-sumary {
+    color: #666;
+    text-align: center;
+    padding-bottom: 21px;
+}
+
+.story .story-slide img {
+    border-radius: 50%;
+    width: 70%;
+}
+
+.story .story-slide .story-slide-sumary {
+    font-size: 15px;
+    color: #8ab610;
+    font-weight: 700;
+    font-style: italic;
+    padding-top: 15px;
+}
+
+.story .story-slide .story-slide-name {
+    font-weight: bolder;
+    color: #777;
+    padding-top: 20px;
+}
+/* End====================story=========================== */
+
+/* Start================impressive=========================== */
+.impressive {
+    background-image: url('../images/banner-002-scaled.jpg');
+    background-size: contain;
+}
+
+.impressive .impressive-title {
+    color: #8ab610;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.impressive .impressive-sumary {
+    color: #666;
+    text-align: center;
+    padding-bottom: 21px;
+}
+
+.impressive .impressive-content {
+    justify-content: center;
+}
+
+.impressive .impressive-main {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.impressive .impressive-main img {
+    width: 50%;
+}
+
+.impressive .impressive-main .impressive-main-title {
+    padding-top: 30px;
+    color: #ed1c24;
+    font-size: 35px;
+    text-shadow: 2px 0 5px rgba(0,0,0,.2);
+    font-weight: 700;
+}
+
+.impressive .impressive-main .impressive-main-sumary {
+    padding-top: 30px;
+    color: #000;
+    font-weight: 400;
+}
+/* End==================impressive=========================== */
+
+/* Start================achievement=========================== */
+.achievement .achievement-title {
+    color: #8ab610;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.achievement .achievement-sumary {
+    color: #666;
+    text-align: center;
+    padding-bottom: 21px;
+}
+
+.achievement .owl4 {
+    position: relative;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.achievement .owl4 .owl-nav button.owl-prev {
+    position: absolute;
+    top: 21%;
+    left: 5%;
+    font-size: 55px;
+    opacity: 0.6;
+}
+
+.achievement .owl4 .owl-nav button.owl-next {
+    position: absolute;
+    top: 21%;
+    right: 5%;
+    font-size: 55px;
+    opacity: 0.6;
+}
+/* End==================achievement=========================== */
+
+/* Start==================partner=========================== */
+.partner {
+    background: rgb(240, 242, 245);
+}
+
+.partner .partner-title {
+    color: #8ab610;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.partner .partner-sumary {
+    color: #666;
+    text-align: center;
+    padding-bottom: 21px;
+}
+
+.partner .owl5 .item {
+    padding: 10px;
+}
+
+.partner .owl5 .item img {
+    width: 100%;
+}
+
+/* End====================partner=========================== */
+
+/* Start===================system=========================== */
+.system .system-title {
+    color: #8ab610;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 18px;
+    margin-top: 40px;
+}
+
+.system .system-sumary {
+    color: #666;
+    text-align: center;
+    padding-bottom: 21px;
+}
+
+.system .system-button {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.system .system-button a {
+    padding-bottom: 12px;
+    border-radius: 25px;
+    background: rgb(138, 182, 16);
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.system .system-button a:hover {
+    background: #769a12;
+}
+
+.system .system-main {
+    margin-top: 40px;
+    padding-top: 15px;
+    background: #f2f2f2;
+}
+
+.system .system-main .system-search {
+    font-size: 20px;
+    color: #777;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+
+.system .system-main .system-select {
+    position: absolute;
+    z-index: 2;
+    width: 90%;
+    padding-bottom: 50px;
+}
+
+.system .system-main .system-select select {
+    width: 100%;
+}
+
+.system .system-list {
+    position: absolute;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1;
+}
+
+.system .system-item {
+    padding: 10px;
+}
+
+.system .system-item a:hover {
+    background: #f2f2f2;
+}
+
+.system .system-item img {
+    width: 100%;
+}
+
+.system .system-item .system-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #8ab610;
+    margin-bottom: 5px;
+}
+
+.system .system-item .system-adress {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.system .system-item .system-number {
+    margin-bottom: 5px;
+}
+
+.system .system-item .system-number a {
+    color: #8ab610;
+}
+
+.system .system-item .system-number a:hover {
+    color: #000;
+}
+
+.system .system-item .system-direct a {
+    color: #8ab610;
+}
+
+.system .system-item .system-direct a:hover {
+    color: #000;
+}
+
+.system .system-main .system-main-button {
+    text-align: center;
+}
+
+.system .system-main .system-main-button a {
+    background: #8ab610;
+    color: #fff;
+    line-height: 2.4em;
+    font-weight: bolder;
+    display: inline-block;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    text-transform: uppercase;
+}
+
+.system .system-main .system-main-button a:hover {
+    background: #769a12;
+}
+
+.system .system-main iframe {
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+}
+/* End===================system=========================== */
+
+/* Start===================signup=========================== */
+.signup img {
+    width: 100%;
+}
+
+/* End=====================signup=========================== */
+
+/* Start===================footer=========================== */
+footer {
+    background-color: #8ab610;
+}
+
+.information {
+    margin-top: 15px;
+}
+
+.information .logo {
+    margin-bottom: 15px;
+}
+
+.information .logo img {
+    width: 50%;
+}
+
+.information .title {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 17px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.26);
+}
+
+.information .sumary1 {
+    color: #f1f1f1;
+    margin-bottom: 10px;
+}
+
+.information .sumary2 {
+    color: #f1f1f1;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.information .app {
+    margin-bottom: 20px;
+}
+
+.information .app img {
+    width: 100%;
+}
+
+.information .logo-sale {
+    padding-right: 30px;
+}
+
+.information .logo-sale img {
+    width: 50%;
+}
+
+.information .sumary {
+    margin-bottom: 10px;
+}
+
+.information .sumary a {
+    color: #fff;
+    font-weight: 400;
+    font-size: .8em;
+}
+
+.information .sumary a:hover {
+    color: #f1f1f1;
+}
+
+footer .button {
+    margin-top: 20px;
+}
+
+footer .button a {
+    background-color: #82a919;
+    margin-bottom: 1em;
+    color: #fff;
+    overflow: hidden;
+    border-color: rgba(0,0,0,.05);
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: .97em;
+    letter-spacing: .03em;
+    cursor: pointer;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    border-radius: 0;
+    margin-top: 0;
+    margin-right: 1em;
+    text-shadow: none;
+    line-height: 2.4em;
+    min-height: 2.5em;
+    padding: 0 1.2em;
+    max-width: 100%;
+    transition: transform .3s,border .3s,background .3s,box-shadow .3s,opacity .3s,color .3s;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+}
+
+footer .button a:hover {
+    background-color: #709216;
+}
+
+footer .icon img {
+    width: 15%;
+}
+/* End========================footer=========================== */
+
+/* Start===================fix menu top=========================== */
+.scrolled {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: #fff !important;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    padding: 0 15px;
+    -webkit-transition: .3s all ease-out;
+-o-transition: .3s all ease-out;
+transition: .3s all ease-out;
+    ;
+}
+/* End===================fix menu top=========================== */
+
+/* Start================return to top=========================== */
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 3;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+.return-top {
+    background: #fff;
+    border: 1px solid #73c050 !important;
+}
+.return-top i {
+    color: #73c050 !important;
+}
+.return-top:hover {
+    background: #73c050 !important;
+}
+.return-top:hover i {
+    color: #fff !important;
 }
